@@ -1,17 +1,15 @@
 # Counterfactual-Regret-Minimization-Poker-Bot
-A concise demonstration of Counterfactual Regret Minimization (CFR) for heads-up No Limit Texas Hold’em, integrated with PyPokerEngine (https://github.com/ishikota/PyPokerEngine).
+
+A demonstration of **Counterfactual Regret Minimization (CFR)** for heads-up No Limit Texas Hold’em, integrated with [PyPokerEngine] (https://github.com/ishikota/PyPokerEngine).
 
 ## Key Points
 
-- Demonstrates a _small, illustrative_ decision tree for CFR, rather than a full-blown No-Limit Hold’em solver.
-- Uses a custom `TreeCFRPlayer` that builds a toy game tree each time it acts, runs a few CFR iterations, then chooses an action from the average strategy.
-- Includes a `RandomPlayer` opponent for basic testing.
+- Implements a decision tree for Counterfactual Regret Minimization (CFR) in No Limit Hold’em.  
+- Utilizes a custom `TreeCFRPlayer` to construct and train on a decision tree during gameplay, choosing actions based on the average CFR strategy.  
+- Includes a `RandomPlayer` opponent for testing.  
 
 ## Features
 
-- **Tree-based CFR**: Minimal forward/backward pass logic to update regrets.
-- **PyPokerEngine** integration: Works as a `BasePokerPlayer`.
-- **Two-Item Return**: Satisfies PyPokerEngine’s requirement to return `(action, amount)`.
-
-## Setup & Installation
-
+- **CFR Logic**: Forward/backward pass implementation to update regrets and compute strategies.  
+- **PyPokerEngine Integration**: Fully functional bot as a `BasePokerPlayer`.  
+- **Action Logging**: Tracks `raise`, `call`, and `fold` decisions during gameplay for analysis.  
