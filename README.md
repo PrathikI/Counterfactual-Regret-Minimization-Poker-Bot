@@ -12,4 +12,10 @@ A demonstration of **Counterfactual Regret Minimization (CFR)** for heads-up No 
 
 - **CFR Logic**: Forward/backward pass implementation to update regrets and compute strategies.  
 - **PyPokerEngine Integration**: Fully functional bot as a `BasePokerPlayer`.  
-- **Action Logging**: Tracks `raise`, `call`, and `fold` decisions during gameplay for analysis.  
+- **Action Logging**: Tracks `raise`, `call`, and `fold` decisions during gameplay for analysis.
+
+## Running Instructions
+
+- **Clone the Repository**: git clone
+- **Install Dependencies**: `pip install requirements.txt`
+- **Run Frontend**: `streamlit run app.py`
