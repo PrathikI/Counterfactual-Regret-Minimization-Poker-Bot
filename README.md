@@ -16,6 +16,6 @@ A demonstration of **Counterfactual Regret Minimization (CFR)** for heads-up No 
 
 ## Running Instructions
 
-- **Clone the Repository**
+- **Clone the Repository**: `git clone https://github.com/PrathikI/Counterfactual-Regret-Minimization-Poker-Bot.git`
 - **Install Dependencies**: `pip install requirements.txt`
 - **Run Frontend**: `streamlit run app.py`
